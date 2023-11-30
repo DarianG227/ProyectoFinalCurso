@@ -1,0 +1,659 @@
+*{
+    margin: 5px;
+    padding: 0px;
+}
+
+/*Mobile first vertical */
+@media(max-width:575px){
+    .redes{
+        display: block;
+    }
+    
+    .ig{
+        background-color: rgba(255, 255, 255, 0.603);
+        width: 100%;
+        height: 200px;
+        border: 2px solid black;
+    }
+    
+    .metaF{
+        background-color: rgba(255, 255, 255, 0.603);
+        width: 100%;
+        border: 2px solid black;
+    }
+    
+    .mail{
+        background-color: rgba(255, 255, 255, 0.603);
+        width: 100%;
+        border: 2px solid black;
+    }
+    
+    .nombreig{
+        text-decoration: none;
+        font-size: 17px;
+    }
+    
+    .nombreFacebook{
+        text-decoration: none;
+        font-size: 14px;
+    }
+    
+    .nombreMail{
+        text-decoration: none;
+        font-size: 14px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .fondoPantalla2{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0.4;
+        z-index: -1;
+    }
+    
+    body{
+        background-color: rgb(39, 15, 66);
+    }
+    
+    section{
+        height: 525px;
+    }
+    
+    nav{
+        background-color:rgba(70, 131, 180, 0.8);
+        display: flex;
+        justify-content: start;
+        border: 2px solid black;
+    }
+    
+    .PartesNav{
+        color: red;
+        display: flex;
+        justify-content: end;
+    }
+    
+    footer{
+        background-color: rgba(210, 189, 30, 0.7);
+        font-size: small;
+        border: 3px solid black;
+        width: 100%;
+    }
+    
+    .Foot{
+        display: block;
+    }
+    
+    .darian{
+        display: flex;
+        justify-content: end;
+        font-size: small;
+    }
+    
+    .PestañaAnterior{
+        color: rgba(186, 202, 8, 0.749);
+    }
+    
+    .main{
+        height: 590px;
+    }
+    
+    .flechas{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .centrarIg{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .centrarF{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .centrarMail{
+        display: flex;
+        justify-content: center;
+    }
+
+    .derechosR{
+        font-size: 14px;
+    }
+
+    a{
+        font-size: 14px;
+        text-decoration: none;
+    }
+}
+
+/*Mobile first Horizontal */
+@media(min-width:576px){
+    .redes{
+        display: block;
+    }
+    
+    .ig{
+        background-color: rgba(255, 255, 255, 0.603);
+        width: 100%;
+        height: 200px;
+        border: 2px solid black;
+    }
+    
+    .metaF{
+        background-color: rgba(255, 255, 255, 0.603);
+        width: 100%;
+        border: 2px solid black;
+    }
+    
+    .mail{
+        background-color: rgba(255, 255, 255, 0.603);
+        width: 100%;
+        border: 2px solid black;
+    }
+    
+    .nombreig{
+        text-decoration: none;
+        font-size: 15px;
+    }
+    
+    .nombreFacebook{
+        text-decoration: none;
+        font-size: 15px;
+    }
+    
+    .nombreMail{
+        text-decoration: none;
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .fondoPantalla2{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0.4;
+        z-index: -1;
+    }
+    
+    body{
+        background-color: rgb(15, 66, 28);
+    }
+    
+    section{
+        height: 525px;
+    }
+    
+    nav{
+        background-color:rgba(70, 131, 180, 0.8);
+        display: flex;
+        justify-content: start;
+        border: 2px solid black;
+    }
+    
+    .PartesNav{
+        color: red;
+        display: flex;
+        justify-content: end;
+    }
+    
+    footer{
+        background-color: rgba(210, 189, 30, 0.7);
+        font-size: small;
+        border: 3px solid black;
+        width: 100%;
+    }
+    
+    .Foot{
+        display: block;
+    }
+    
+    .darian{
+        display: flex;
+        justify-content: end;
+        font-size: small;
+    }
+    
+    .PestañaAnterior{
+        color: rgba(186, 202, 8, 0.749);
+    }
+    
+    .main{
+        height: 590px;
+    }
+    
+    .flechas{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .centrarIg{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .centrarF{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .centrarMail{
+        display: flex;
+        justify-content: center;
+    }
+
+    .derechosR{
+        font-size: 15px;
+    }
+
+    a{
+        font-size: 15px;
+        text-decoration: none;
+    }
+}
+
+/*Tabletas */
+@media (min-width:768px){
+    .redes{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .ig{
+        background-color: rgba(255, 255, 255, 0.603);
+        width: 100%;
+        height: 200px;
+        border: 2px solid black;
+        box-shadow: 10px 10px 1px rgba(255, 255, 255, 0.356);
+    }
+    
+    .metaF{
+        background-color: rgba(255, 255, 255, 0.603);
+        width: 100%;
+        border: 2px solid black;
+        box-shadow: 10px 10px 1px rgba(255, 255, 255, 0.356);
+    }
+    
+    .mail{
+        background-color: rgba(255, 255, 255, 0.603);
+        width: 100%;
+        box-shadow: 10px 10px 1px rgba(255, 255, 255, 0.356);
+        border: 2px solid black;
+    }
+    
+    .nombreig{
+        text-decoration: none;
+        font-size: 16px;
+    }
+    
+    .nombreFacebook{
+        text-decoration: none;
+        font-size: 16px;
+    }
+    
+    .nombreMail{
+        text-decoration: none;
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .fondoPantalla2{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0.4;
+        z-index: -1;
+    }
+    
+    body{
+        background-color: rgb(25, 96, 104);
+    }
+    
+    section{
+        height: 240px;
+    }
+    
+    nav{
+        background-color:rgba(70, 131, 180, 0.8);
+        display: flex;
+        justify-content: start;
+        border: 2px solid black;
+    }
+    
+    .PartesNav{
+        color: red;
+        display: flex;
+        justify-content: end;
+    }
+    
+    footer{
+        background-color: rgba(210, 189, 30, 0.7);
+        font-size: small;
+        border: 3px solid black;
+        width: 100%;
+    }
+    
+    .Foot{
+        display: flex;
+        justify-content: space-around; 
+    }
+    
+    .darian{
+        display: flex;
+        justify-content: end;
+        font-size: small;
+    }
+    
+    .PestañaAnterior{
+        color: rgba(186, 202, 8, 0.749);
+    }
+    
+    .main{
+        height: 300px;
+    }
+    
+    .flechas{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .centrarIg{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .centrarF{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .centrarMail{
+        display: flex;
+        justify-content: center;
+    }
+
+    .derechosR{
+        font-size: 16px;
+    }
+
+    a{
+        font-size: 16px;
+        text-decoration: none;
+    }
+}
+
+/*Escritorios normales */
+@media (min-width:992px){
+    .redes{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .ig{
+        background-color: rgba(255, 255, 255, 0.603);
+        width: 100%;
+        height: 200px;
+        border: 2px solid black;
+        box-shadow: 10px 10px 1px rgba(255, 255, 255, 0.356);
+    }
+    
+    .metaF{
+        background-color: rgba(255, 255, 255, 0.603);
+        width: 100%;
+        border: 2px solid black;
+        box-shadow: 10px 10px 1px rgba(255, 255, 255, 0.356);
+    }
+    
+    .mail{
+        background-color: rgba(255, 255, 255, 0.603);
+        width: 100%;
+        box-shadow: 10px 10px 1px rgba(255, 255, 255, 0.356);
+        border: 2px solid black;
+    }
+    
+    .nombreig{
+        text-decoration: none;
+        font-size: 17px;
+    }
+    
+    .nombreFacebook{
+        text-decoration: none;
+        font-size: 17px;
+    }
+    
+    .nombreMail{
+        text-decoration: none;
+        font-size: 17px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .fondoPantalla2{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0.4;
+        z-index: -1;
+    }
+    
+    body{
+        background-color: rgb(116, 18, 18);
+    }
+    
+    section{
+        height: 240px;
+    }
+    
+    nav{
+        background-color:rgba(70, 131, 180, 0.8);
+        display: flex;
+        justify-content: start;
+        border: 2px solid black;
+    }
+    
+    .PartesNav{
+        color: red;
+        display: flex;
+        justify-content: end;
+    }
+    
+    footer{
+        background-color: rgba(210, 189, 30, 0.7);
+        font-size: small;
+        border: 3px solid black;
+        width: 100%;
+    }
+    
+    .Foot{
+        display: flex;
+        justify-content: space-around; 
+    }
+    
+    .darian{
+        display: flex;
+        justify-content: end;
+        font-size: small;
+    }
+    
+    .PestañaAnterior{
+        color: rgba(186, 202, 8, 0.749);
+    }
+    
+    .main{
+        height: 300px;
+    }
+    
+    .flechas{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .centrarIg{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .centrarF{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .centrarMail{
+        display: flex;
+        justify-content: center;
+    }
+
+    .derechosR{
+        font-size: 17px;
+    }
+
+    a{
+        font-size: 17px;
+        text-decoration: none;
+    }
+}
+
+/*Pantallas grandes */
+@media (min-width:1200px){
+.redes{
+    display: flex;
+    justify-content: space-around;
+}
+
+.ig{
+    background-color: rgba(255, 255, 255, 0.603);
+    width: 100%;
+    height: 200px;
+    border: 2px solid black;
+    box-shadow: 10px 10px 1px rgba(255, 255, 255, 0.356);
+}
+
+.metaF{
+    background-color: rgba(255, 255, 255, 0.603);
+    width: 100%;
+    border: 2px solid black;
+    box-shadow: 10px 10px 1px rgba(255, 255, 255, 0.356);
+}
+
+.mail{
+    background-color: rgba(255, 255, 255, 0.603);
+    width: 100%;
+    box-shadow: 10px 10px 1px rgba(255, 255, 255, 0.356);
+    border: 2px solid black;
+}
+
+.nombreig{
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nombreFacebook{
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nombreMail{
+    text-decoration: none;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+}
+
+.fondoPantalla2{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    z-index: -1;
+}
+
+body{
+    background-color: black;
+}
+
+section{
+    height: 240px;
+}
+
+nav{
+    background-color:rgba(70, 131, 180, 0.8);
+    display: flex;
+    justify-content: start;
+    border: 2px solid black;
+}
+
+.PartesNav{
+    color: red;
+    display: flex;
+    justify-content: end;
+}
+
+footer{
+    background-color: rgba(210, 189, 30, 0.7);
+    font-size: small;
+    border: 3px solid black;
+    width: 100%;
+}
+
+.Foot{
+    display: flex;
+    justify-content: space-around; 
+}
+
+.darian{
+    display: flex;
+    justify-content: end;
+    font-size: small;
+}
+
+.PestañaAnterior{
+    color: rgba(186, 202, 8, 0.749);
+}
+
+.main{
+    height: 300px;
+}
+
+.flechas{
+    display: flex;
+    justify-content: space-around;
+}
+
+.centrarIg{
+    display: flex;
+    justify-content: center;
+}
+
+.centrarF{
+    display: flex;
+    justify-content: center;
+}
+
+.centrarMail{
+    display: flex;
+    justify-content: center;
+}
+
+.derechosR{
+    font-size: 18px;
+}
+
+a{
+    font-size: 18px;
+    text-decoration: none;
+}
+}
